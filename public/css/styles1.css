@@ -1,0 +1,55 @@
+/* public/css/custom-style.css */
+
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for the form */
+.custom-form {
+    max-width: 50%; /* Set the form width to half of the screen */
+    margin: 50px auto; /* Center the form horizontally with top margin */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea,
+select {
+    width: calc(100% - 16px); /* Adjust input width to fit within container padding */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    width: 100%; /* Button takes full width of container */
+    margin-top: 10px; /* Add space above the button */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
